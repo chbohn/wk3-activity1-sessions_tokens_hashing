@@ -26,13 +26,6 @@ public class ExampleService {
     private static Connection con = null;
     private static Configs configs = new Configs();
 
-    // Logic handlers
-//    public static RegisterUser registerUser = new RegisterUser();
-//    public static LoginUser loginUser = new LoginUser();
-//    public static VerifySession verifySession = new VerifySession();
-//    public static VerifyPrivilege verifyPrivilege = new VerifyPrivilege();
-//    public static UpdatePassword updatePassword = new UpdatePassword();
-
     public static void main(String[] args) {
         exampleService = new wk3.activity1.sessions_tokens_hashing.ExampleService();
         exampleService.initService(args);
